@@ -1,0 +1,41 @@
+name: Validate MIL-STD-498 Skill
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Inspect packaged skill archive
+        run: |
+          test -f skill.zip
+          unzip -t skill.zip
+
+      - name: Compile utility scripts
+        run: |
+          python -m py_compile mil-std-498/scripts/mil498_bootstrap.py
+          python -m py_compile mil-std-498/scripts/validate_mil498_docs.py
+
+      - name: Generate sample MIL-STD-498 document set
+        run: |
+          python mil-std-498/scripts/mil498_bootstrap.py \
+            --project "Telemetry Gateway" \
+            --dids SRS SDD STD STR SVD \
+            --out generated-docs
+
+      - name: Validate generated document set
+        run: |
+          python mil-std-498/scripts/validate_mil498_docs.py generated-docs
