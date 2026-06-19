@@ -8,7 +8,7 @@
 ![Standard](https://img.shields.io/badge/MIL--STD--498-style-black)
 ![Docs as Code](https://img.shields.io/badge/docs--as--code-enabled-0E3D8A)
 
-> A Rootcastle-branded ChatGPT Skill for creating, tailoring, and reviewing MIL-STD-498-style software lifecycle documentation without pretending that a template equals contractual compliance.
+> A Rootcastle-branded agent Skill for creating, tailoring, and reviewing MIL-STD-498-style software lifecycle documentation without pretending that a template equals contractual compliance.
 
 ## Tags
 
