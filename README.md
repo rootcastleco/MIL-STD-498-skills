@@ -24,7 +24,3 @@ The extracted skill includes:
 1. Review `mil-std-498/SKILL.md` to understand the skill behavior.
 2. Use the scripts in `mil-std-498/scripts/` for setup and validation tasks.
 3. Consult the `mil-std-498/references/` documents while preparing deliverables.
-
-## Notes
-
-The archive contents have been extracted into repository folders for direct browsing and use.
