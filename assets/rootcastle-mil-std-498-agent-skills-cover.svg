@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">/ROOTCASTLE MIL-STD-498 Agent Skills</title>
+  <desc id="desc">Rootcastle Engineering and Innovation repository cover for MIL-STD-498 Agent Skills.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#0E3D8A" stroke-opacity="0.18" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .bg{fill:#000000}.grid{fill:url(#grid)}.blue{stroke:#0E3D8A}.green{stroke:#228B55}.txt{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.white{fill:#f5f7fa}.btxt{fill:#2f83ff}.gtxt{fill:#38b86a}.muted{fill:#9fb7d8}.thin{fill:none;stroke-width:2}.panel{fill:#02070d;stroke-width:2}.small{font-size:18px}.xs{font-size:14px}.mono{letter-spacing:1px}.px{shape-rendering:crispEdges}
+    </style>
+  </defs>
+  <rect class="bg" width="1280" height="720"/>
+  <rect class="grid" width="1280" height="720" opacity="0.75"/>
+  <g opacity="0.65" class="px">
+    <path d="M0 632H120v-10h88v10h76" class="thin blue"/>
+    <path d="M942 48h130v12h172" class="thin green"/>
+    <path d="M298 675h160v-16h76v16h106" class="thin blue"/>
+    <path d="M748 662h110v-20h72v20h162" class="thin green"/>
+    <rect x="181" y="28" width="6" height="6" fill="#0E3D8A"/><rect x="202" y="28" width="6" height="6" fill="#0E3D8A"/><rect x="223" y="28" width="6" height="6" fill="#0E3D8A"/><rect x="244" y="28" width="6" height="6" fill="#0E3D8A"/>
+    <rect x="874" y="672" width="6" height="6" fill="#228B55"/><rect x="895" y="672" width="6" height="6" fill="#228B55"/><rect x="916" y="672" width="6" height="6" fill="#228B55"/><rect x="937" y="672" width="6" height="6" fill="#228B55"/>
+  </g>
+  <g transform="translate(34 38)" filter="url(#glow)">
+    <rect x="0" y="0" width="92" height="92" fill="none" stroke="#0E3D8A" stroke-width="2"/>
+    <path d="M30 64h44v-28h-8v-12h-10v12h-8v-18h-8v18h-10z" fill="#0E3D8A"/>
+    <rect x="42" y="50" width="8" height="14" fill="#000"/><rect x="32" y="40" width="8" height="8" fill="#000"/><rect x="62" y="40" width="8" height="8" fill="#000"/>
+    <path d="M52 14h24l-8 8 8 8H52z" fill="#228B55"/>
+    <line x1="52" y1="14" x2="52" y2="34" stroke="#228B55" stroke-width="3"/>
+  </g>
+  <g transform="translate(298 120)">
+    <text class="txt white mono" x="0" y="72" font-size="76" font-weight="800">/ROOTCASTLE</text>
+    <text class="txt gtxt mono" x="0" y="168" font-size="88" font-weight="900">MIL-STD-498</text>
+    <text class="txt white mono" x="0" y="258" font-size="80" font-weight="900">Agent Skills</text>
+    <path d="M0 292H640l22 18 22-18h300" class="thin blue"/>
+    <text class="txt btxt mono" x="118" y="360" font-size="34" font-weight="700">:: Engineering &amp; Innovation ::</text>
+    <text class="txt white" x="55" y="432" font-size="26">Agent Skill for MIL-STD-498-style documentation</text>
+    <rect x="0" y="480" width="700" height="56" fill="none" stroke="#0E3D8A" stroke-width="2" stroke-dasharray="8 6"/>
+    <text class="txt btxt" x="38" y="516" font-size="23">SRS</text><circle cx="91" cy="508" r="5" fill="#228B55"/>
+    <text class="txt btxt" x="112" y="516" font-size="23">SDD</text><circle cx="165" cy="508" r="5" fill="#228B55"/>
+    <text class="txt btxt" x="186" y="516" font-size="23">STD</text><circle cx="239" cy="508" r="5" fill="#228B55"/>
+    <text class="txt btxt" x="260" y="516" font-size="23">STR</text><circle cx="313" cy="508" r="5" fill="#228B55"/>
+    <text class="txt gtxt" x="334" y="516" font-size="23">Traceability</text><circle cx="496" cy="508" r="5" fill="#228B55"/>
+    <text class="txt btxt" x="518" y="516" font-size="23">CDRL</text><circle cx="582" cy="508" r="5" fill="#228B55"/>
+    <text class="txt gtxt" x="604" y="516" font-size="23">Docs-as-Code</text>
+  </g>
+  <g transform="translate(34 162)">
+    <rect class="panel blue" width="232" height="154"/>
+    <text class="txt btxt small" x="16" y="28">DOCUMENT GRID</text>
+    <g transform="translate(28 58)" class="txt xs white">
+      <rect width="48" height="34" fill="none" stroke="#0E3D8A" stroke-dasharray="4 4"/><text x="12" y="23">SRS</text>
+      <rect x="68" width="48" height="34" fill="none" stroke="#0E3D8A" stroke-dasharray="4 4"/><text x="80" y="23">SDD</text>
+      <rect x="136" width="48" height="34" fill="none" stroke="#0E3D8A" stroke-dasharray="4 4"/><text x="148" y="23">STD</text>
+      <rect y="52" width="48" height="34" fill="none" stroke="#228B55" stroke-dasharray="4 4"/><text x="12" y="75">STR</text>
+      <rect x="68" y="52" width="48" height="34" fill="none" stroke="#228B55" stroke-dasharray="4 4"/><text x="76" y="75">CDRL</text>
+      <rect x="136" y="52" width="48" height="34" fill="none" stroke="#228B55" stroke-dasharray="4 4"/><text x="148" y="75">APP</text>
+    </g>
+    <rect class="panel blue" y="174" width="232" height="174"/>
+    <text class="txt btxt small" x="16" y="204">TRACEABILITY MATRIX</text>
+    <text class="txt gtxt xs" x="16" y="242">REQ-001</text><text class="txt gtxt xs" x="16" y="276">REQ-002</text><text class="txt gtxt xs" x="16" y="310">REQ-003</text>
+    <text class="txt btxt xs" x="95" y="226">SRS</text><text class="txt btxt xs" x="136" y="226">SDD</text><text class="txt btxt xs" x="178" y="226">STD</text>
+    <rect x="104" y="234" width="10" height="10" fill="#228B55"/><rect x="145" y="234" width="10" height="10" fill="#228B55"/><rect x="145" y="268" width="10" height="10" fill="#228B55"/><rect x="188" y="268" width="10" height="10" fill="#228B55"/><rect x="104" y="302" width="10" height="10" fill="#228B55"/><rect x="188" y="302" width="10" height="10" fill="#228B55"/>
+    <rect class="panel blue" y="368" width="232" height="142"/>
+    <text class="txt btxt small" x="16" y="398">INTERFACE DIAGRAM</text>
+    <rect x="20" y="430" width="54" height="32" fill="none" stroke="#228B55" stroke-dasharray="4 4"/><text class="txt gtxt" x="28" y="451" font-size="10">EXT</text>
+    <rect x="98" y="430" width="54" height="32" fill="none" stroke="#0E3D8A"/><text class="txt btxt" x="106" y="451" font-size="10">CORE</text>
+    <rect x="176" y="430" width="54" height="32" fill="none" stroke="#228B55" stroke-dasharray="4 4"/><text class="txt gtxt" x="184" y="451" font-size="10">SINK</text>
+    <path d="M74 446H98M152 446H176M125 462v38" class="thin blue"/>
+    <rect x="98" y="500" width="54" height="28" fill="none" stroke="#228B55" stroke-dasharray="4 4"/><text class="txt gtxt" x="105" y="518" font-size="10">OBS</text>
+  </g>
+  <g transform="translate(936 112)">
+    <rect class="panel blue" width="310" height="484"/>
+    <text class="txt btxt small" x="20" y="34">ARCHITECTURE OVERVIEW</text>
+    <rect x="56" y="68" width="198" height="34" fill="none" stroke="#228B55"/><text class="txt white xs" x="98" y="91">USER / ENGINEER</text>
+    <path d="M155 102v36" class="thin blue"/>
+    <rect x="36" y="138" width="238" height="102" fill="none" stroke="#0E3D8A"/>
+    <text class="txt btxt xs" x="82" y="164">AGENT SKILL LAYER</text>
+    <text class="txt white xs" x="76" y="190">• MIL-STD-498 Workflows</text>
+    <text class="txt white xs" x="76" y="212">• Document Generation</text>
+    <text class="txt white xs" x="76" y="234">• Traceability &amp; Quality</text>
+    <path d="M155 240v38" class="thin blue"/>
+    <rect x="36" y="278" width="238" height="76" fill="none" stroke="#228B55"/>
+    <text class="txt gtxt xs" x="75" y="302">KNOWLEDGE &amp; TEMPLATES</text>
+    <text class="txt white xs" x="68" y="332">SRS   SDD   STD   STR   ...</text>
+    <path d="M155 354v38" class="thin blue"/>
+    <rect x="36" y="392" width="238" height="72" fill="none" stroke="#0E3D8A"/>
+    <text class="txt btxt xs" x="82" y="417">VALIDATION &amp; CHECKS</text>
+    <text class="txt white xs" x="72" y="447">Rules   Traceability   Quality</text>
+  </g>
+  <g transform="translate(798 56)">
+    <rect width="116" height="40" fill="none" stroke="#0E3D8A" stroke-width="2"/><text class="txt btxt" x="24" y="27" font-size="20">v0.1.0</text>
+    <rect x="138" width="254" height="40" fill="none" stroke="#228B55" stroke-width="2"/><text class="txt gtxt" x="164" y="27" font-size="20">✓ validated workflow</text>
+  </g>
+  <g transform="translate(982 630)">
+    <rect width="246" height="54" fill="none" stroke="#0E3D8A" stroke-width="2"/>
+    <circle cx="33" cy="27" r="14" fill="none" stroke="#228B55" stroke-width="2"/>
+    <path d="M19 27h28M33 13c10 10 10 18 0 28M33 13c-10 10-10 18 0 28" class="thin green"/>
+    <text class="txt white" x="62" y="35" font-size="26">rootcastle.com</text>
+  </g>
+</svg>
