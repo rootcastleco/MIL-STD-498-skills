@@ -1,0 +1,17 @@
+requirement_id,requirement_summary,design_artifact,design_element,test_artifact,test_case,verification_method,status
+TG-SRS-FR-001,Accept telemetry over MQTT and HTTPS adapters without core changes,SDD.md,MQTT Adapter; HTTPS Adapter,STD.md,TG-STD-001,Integration,Example
+TG-SRS-FR-002,Validate every inbound payload against a versioned schema,SDD.md,Schema Validator,STD.md,TG-STD-002,Unit/Integration,Example
+TG-SRS-FR-003,Reject malformed payloads with no partial side effects,SDD.md,Schema Validator; Core Telemetry Domain,STD.md,TG-STD-003,Integration,Example
+TG-SRS-FR-004,Route valid telemetry to configured sinks,SDD.md,Core Telemetry Domain; Sink Adapter Layer,STD.md,TG-STD-004,Integration,Example
+TG-SRS-FR-005,Support feature-flagged adapter rollout,SDD.md,Feature Flag Gateway,STD.md,TG-STD-005,Inspection/Test,Example
+TG-SRS-IR-001,Authenticate MQTT clients before accepting telemetry,SDD.md,MQTT Adapter,STD.md,TG-STD-008,Security,Example
+TG-SRS-IR-002,Require TLS for HTTPS telemetry,SDD.md,HTTPS Adapter,STD.md,TG-STD-008,Security,Example
+TG-SRS-IR-003,Expose retry-safe sink delivery semantics,SDD.md,Sink Adapter Layer,STD.md,TG-STD-004,Integration,Example
+TG-SRS-DR-001,Include device ID timestamp schema version and adapter metadata,SDD.md,Canonical Event Model,STD.md,TG-STD-002,Inspection/Test,Example
+TG-SRS-DR-002,Preserve diagnostic metadata for rejected events without secrets,SDD.md,Schema Validator; Observability Module,STD.md,TG-STD-003; TG-STD-009,Security/Inspection,Example
+TG-SRS-PR-001,Meet P95 processing latency target,SDD.md,Core Telemetry Domain; Observability Module,STD.md,TG-STD-006,Performance,Example
+TG-SRS-PR-002,Meet sustained ingestion throughput target,SDD.md,Ingress Adapters; Core Telemetry Domain,STD.md,TG-STD-007,Performance,Example
+TG-SRS-SR-001,Enforce ingress authentication and authorization,SDD.md,MQTT Adapter; HTTPS Adapter,STD.md,TG-STD-008,Security,Example
+TG-SRS-SR-002,Avoid logging secrets credentials tokens or raw PII,SDD.md,Observability Module,STD.md,TG-STD-009,Security/Inspection,Example
+TG-SRS-SR-003,Expose health readiness metrics traces and structured logs,SDD.md,Observability Module,STD.md,TG-STD-010,Integration/Inspection,Example
+TG-SRS-SR-004,Support rollback of adapter changes via config or feature flags,SDD.md,Feature Flag Gateway; Rollback Design,STD.md,TG-STD-005,Integration,Example
