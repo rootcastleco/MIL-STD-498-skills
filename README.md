@@ -1,21 +1,26 @@
 # /ROOTCASTLE MIL-STD-498 Skills
 
+<p align="center">
+  <img src="assets/rootcastle-mil-std-498-agent-skills-cover.svg" alt="/ROOTCASTLE MIL-STD-498 Agent Skills cover" width="100%">
+</p>
+
 **Engineering & Innovation | Mühendislik & İnovasyon**  
 **rootcastle.com** — software, IoT/telematics, data infrastructure, prototyping, and defense-style engineering documentation.
 
 ![Release](https://img.shields.io/badge/release-v0.1.0-0E3D8A)
+![Agent Skills](https://img.shields.io/badge/agent-skills-228B55)
 ![Standard](https://img.shields.io/badge/MIL--STD--498-style-black)
 ![Docs as Code](https://img.shields.io/badge/docs--as--code-enabled-0E3D8A)
 
-> A Rootcastle-branded agent Skill for creating, tailoring, and reviewing MIL-STD-498-style software lifecycle documentation without pretending that a template equals contractual compliance.
+> A Rootcastle-branded Agent Skills package for creating, tailoring, and reviewing MIL-STD-498-style software lifecycle documentation without pretending that a template equals contractual compliance.
 
 ## Tags
 
-`rootcastle` · `rootcastle.com` · `mil-std-498` · `chatgpt-skill` · `systems-engineering` · `software-lifecycle` · `requirements` · `sdd` · `srs` · `std` · `str` · `traceability` · `cdrl` · `documentation-as-code`
+`rootcastle` · `rootcastle.com` · `mil-std-498` · `agent-skills` · `systems-engineering` · `software-lifecycle` · `requirements` · `sdd` · `srs` · `std` · `str` · `traceability` · `cdrl` · `documentation-as-code`
 
 ## Description
 
-This repository contains the source and packaged archive for a agent Skill that helps produce rigorous MIL-STD-498-style documentation. It is designed for engineering teams that need structured requirements, design, test, release, installation, transition, interface, and traceability artifacts.
+This repository contains the source and packaged archive for an Agent Skills workflow that helps produce rigorous MIL-STD-498-style documentation. It is designed for engineering teams that need structured requirements, design, test, release, installation, transition, interface, and traceability artifacts.
 
 The skill emphasizes:
 
@@ -42,6 +47,8 @@ The skill emphasizes:
 .
 ├── README.md
 ├── skill.zip
+├── assets/
+│   └── rootcastle-mil-std-498-agent-skills-cover.svg
 ├── docs/
 │   └── releases/
 │       └── v0.1.0.md
@@ -70,7 +77,8 @@ The skill emphasizes:
 
 ## Included components
 
-- `skill.zip` — packaged agent Skill archive.
+- `skill.zip` — packaged Agent Skills archive.
+- `assets/rootcastle-mil-std-498-agent-skills-cover.svg` — Rootcastle repository cover image.
 - `mil-std-498/SKILL.md` — main skill definition and invocation behavior.
 - `mil-std-498/scripts/` — utility scripts for bootstrapping and validating document sets.
 - `mil-std-498/references/` — DID catalog, document structures, tailoring guidance, and quality checks.
@@ -110,14 +118,14 @@ Current prepared release: **v0.1.0**
 
 Release notes: `docs/releases/v0.1.0.md`
 
-The branch `v0.1.0` exists as a release pointer. If using local Git, create the real Git tag from the current release commit:
+The branch `v0.1.0` exists as a release pointer. If using local Git, create the real Git tag from the latest `main` commit:
 
 ```bash
 git fetch origin
 git checkout main
 git pull
-git tag v0.1.0 b57e6741566dc7764b83be4e71fb2fb9c8d8c60d
-git push origin v0.1.0
+git tag -f v0.1.0
+git push -f origin v0.1.0
 ```
 
 Then create a GitHub Release from `v0.1.0` and attach `skill.zip`.
