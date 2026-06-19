@@ -1,0 +1,3 @@
+interface:
+  display_name: "MIL-STD-498"
+  short_description: "Create and review MIL-STD-498 style software lifecycle documents."
