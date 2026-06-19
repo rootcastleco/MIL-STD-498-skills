@@ -4,7 +4,6 @@
 **rootcastle.com** — software, IoT/telematics, data infrastructure, prototyping, and defense-style engineering documentation.
 
 ![Release](https://img.shields.io/badge/release-v0.1.0-0E3D8A)
-![Skill](https://img.shields.io/badge/chatgpt-skill-228B55)
 ![Standard](https://img.shields.io/badge/MIL--STD--498-style-black)
 ![Docs as Code](https://img.shields.io/badge/docs--as--code-enabled-0E3D8A)
 
@@ -16,7 +15,7 @@
 
 ## Description
 
-This repository contains the source and packaged archive for a ChatGPT Skill that helps produce rigorous MIL-STD-498-style documentation. It is designed for engineering teams that need structured requirements, design, test, release, installation, transition, interface, and traceability artifacts.
+This repository contains the source and packaged archive for a agent Skill that helps produce rigorous MIL-STD-498-style documentation. It is designed for engineering teams that need structured requirements, design, test, release, installation, transition, interface, and traceability artifacts.
 
 The skill emphasizes:
 
@@ -71,7 +70,7 @@ The skill emphasizes:
 
 ## Included components
 
-- `skill.zip` — packaged ChatGPT Skill archive.
+- `skill.zip` — packaged agent Skill archive.
 - `mil-std-498/SKILL.md` — main skill definition and invocation behavior.
 - `mil-std-498/scripts/` — utility scripts for bootstrapping and validating document sets.
 - `mil-std-498/references/` — DID catalog, document structures, tailoring guidance, and quality checks.
@@ -101,7 +100,7 @@ Validate the generated set:
 python3 mil-std-498/scripts/validate_mil498_docs.py generated-docs
 ```
 
-Example ChatGPT prompt:
+Example agent prompt:
 
 > Create a MIL-STD-498-style SRS + SDD + STD + STR + traceability matrix for a telemetry gateway. Keep the core domain isolated from integrations using adapters, gateways, and feature flags.
 
